@@ -1,0 +1,15 @@
+# 민감 정보 및 자격 증명 파일 숨기기
+.env
+*auth.json
+
+# 파이썬 실행 캐시 파일 숨기기
+__pycache__/
+*.pyc
+
+# 작업 결과물로 나오는 엑셀 파일들 자동 제외
+*.xlsx
+
+
+# Jupyter
+.ipynb_checkpoints
+main-checkpoint.ipynb
